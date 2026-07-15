@@ -1,0 +1,7 @@
+{
+  "formatVersion": 1,
+  "repositoryType": "scratch-product-extension-registry",
+  "provider": "github",
+  "repository": "heyanjun963/scratch-product-extensions",
+  "releaseDownloadBaseUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download"
+}
