@@ -30,6 +30,19 @@
       "launcher": "",
       "section": "setup"
     },
+    "wait_seconds": {
+      "template": "time.sleep({SECONDS})",
+      "imports": [
+        "import time"
+      ],
+      "runtimeFiles": [],
+      "variables": [],
+      "setups": [],
+      "entryTemplate": "",
+      "entryFooter": "",
+      "launcher": "",
+      "section": ""
+    },
     "buzzer_tone_set": {
       "template": "beep.playTone({TONES},{RHYTHMS},{MODE})",
       "imports": [

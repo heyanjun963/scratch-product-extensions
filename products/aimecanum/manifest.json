@@ -2,7 +2,7 @@
   "formatVersion": 2,
   "id": "aimecanum",
   "name": "AI机甲麦轮车",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "适用于 AI机甲麦轮车的 Python 积木拓展包。",
   "color1": "#1874cd",
   "color2": "#145fa8",

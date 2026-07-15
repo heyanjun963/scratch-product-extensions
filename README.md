@@ -6,7 +6,7 @@
 
 | 产品 | 当前版本 | 下载 |
 | - | - | - |
-| AI机甲麦轮车 | 0.2.1 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| AI机甲麦轮车 | 0.2.2 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 
 更多产品拓展将在完成兼容性验证后陆续发布。
 
@@ -25,7 +25,7 @@
 发布标签使用 `<产品ID>-v<版本号>` 格式，例如：
 
 ```text
-aimecanum-v0.2.1
+aimecanum-v0.2.2
 ```
 
 升级前请阅读对应 Release 的更新说明。需要使用旧版本时，可以在 Releases 页面下载历史发布包。
@@ -37,13 +37,13 @@ aimecanum-v0.2.1
 Windows PowerShell：
 
 ```powershell
-(Get-FileHash ".\aimecanum-0.2.1.sbext" -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash ".\aimecanum-0.2.2.sbext" -Algorithm SHA256).Hash.ToLower()
 ```
 
 macOS 或 Linux：
 
 ```sh
-sha256sum ./aimecanum-0.2.1.sbext
+sha256sum ./aimecanum-0.2.2.sbext
 ```
 
 计算结果应与 `catalog.json` 中对应版本的 `sha256` 完全一致。

@@ -6,7 +6,8 @@
       "hideLabel": true,
       "blocks": [
         "start_thread",
-        "start_run_thread"
+        "start_run_thread",
+        "wait_seconds"
       ]
     },
     {
@@ -141,6 +142,17 @@
       "blockType": "hat",
       "text": "当启动时",
       "arguments": {}
+    },
+    {
+      "opcode": "wait_seconds",
+      "blockType": "command",
+      "text": "等待 [SECONDS] 秒",
+      "arguments": {
+        "SECONDS": {
+          "type": "number",
+          "defaultValue": 1
+        }
+      }
     },
     {
       "opcode": "buzzer_tone_set",
