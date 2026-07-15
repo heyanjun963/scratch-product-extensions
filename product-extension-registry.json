@@ -3,5 +3,6 @@
   "repositoryType": "scratch-product-extension-registry",
   "provider": "github",
   "repository": "heyanjun963/scratch-product-extensions",
+  "packageDownloadBaseUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist",
   "releaseDownloadBaseUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download"
 }

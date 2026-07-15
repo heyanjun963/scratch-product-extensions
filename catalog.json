@@ -10,9 +10,10 @@
       "repository": "heyanjun963/scratch-product-extensions",
       "tag": "aimecanum-v0.2.1",
       "asset": "aimecanum-0.2.1.sbext",
-      "downloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.1/aimecanum-0.2.1.sbext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.1.sbext",
       "sha256": "80d8103390a5e4b09d96e16fb3a31d09126bb0d66fd48c739134b43aecd1e269",
-      "status": "published"
+      "status": "published",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.1/aimecanum-0.2.1.sbext"
     }
   ]
 }
