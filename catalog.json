@@ -5,15 +5,15 @@
       "packageId": "aimecanum",
       "name": "AI机甲麦轮车",
       "description": "适用于 AI机甲麦轮车的 Python 积木拓展包。",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "provider": "github",
       "repository": "heyanjun963/scratch-product-extensions",
-      "tag": "aimecanum-v0.2.2",
-      "asset": "aimecanum-0.2.2.sbext",
-      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.2.sbext",
-      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.2/aimecanum-0.2.2.sbext",
-      "sha256": "053d3e55c1baf41973a7abc4e636201fd6ac848990bb767d1d839e5e36a656be",
-      "status": "published"
+      "tag": "aimecanum-v0.2.3",
+      "asset": "aimecanum-0.2.3.sbext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.3.sbext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.3/aimecanum-0.2.3.sbext",
+      "sha256": "5905fdb2236e57604123c586f50060a829bde7d16254b7aac5d28a5b936e07e1",
+      "status": "draft"
     }
   ]
 }
