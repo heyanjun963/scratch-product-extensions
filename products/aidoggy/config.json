@@ -1,0 +1,78 @@
+{
+  "name": {
+    "zh-cn": "AiDoggy",
+    "en": "AiDoggy"
+  },
+  "description": {
+    "zh-cn": "适用于 AiDoggy 四足机器狗的 Python 积木拓展包。",
+    "en": "Python block extension package for the AiDoggy quadruped robot."
+  },
+  "author": "Hiwonder",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "aidoggy",
+  "platform": ["win", "mac", "web", "linux"],
+  "version": "0.1.0",
+  "scratchEditor": {
+    "categories": [
+      {"id": "entry", "name": "", "hideLabel": true, "blocks": ["start_thread", "start_run_thread"]},
+      {
+        "id": "board_resource",
+        "name": "板载资源",
+        "blocks": ["buzzer_tone_set", "buzzer_tone_set_arg", "get_battery_level", "set_low_battery_alarm"]
+      },
+      {"id": "output", "name": "输出打印", "blocks": ["print_str", "print_number"]},
+      {
+        "id": "motion",
+        "name": "运动控制",
+        "blocks": ["set_pose", "set_move", "set_move_xyz", "set_turn", "set_gait", "set_stop"]
+      },
+      {
+        "id": "action_group",
+        "name": "动作组控制",
+        "blocks": ["run_action", "run_action_name", "stop_action"]
+      }
+    ],
+    "blocks": {
+      "start_thread": {
+        "section": "main",
+        "launcher": "Hiwonder.startMain({MAIN})"
+      },
+      "start_run_thread": {
+        "section": "setup"
+      },
+      "set_turn": {
+        "templateSelector": {
+          "argument": "VALUE2",
+          "cases": {
+            "1": "aidoggy.omni_move(0,0,{VALUE1},0,0)",
+            "-1": "aidoggy.omni_move(0,0,-{VALUE1},0,0)"
+          }
+        }
+      },
+      "run_action": {
+        "arguments": {
+          "BLOCK": {"type": "number", "defaultValue": "True"}
+        }
+      },
+      "run_action_name": {
+        "arguments": {
+          "BLOCK": {"type": "number", "defaultValue": "True"}
+        }
+      }
+    }
+  },
+  "asset": {
+    "python": {
+      "dir": "python/",
+      "version": "0.1.0",
+      "main": "main.ts",
+      "dependencies": {},
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/index.json"
+      ]
+    }
+  }
+}

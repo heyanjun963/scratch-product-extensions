@@ -2,6 +2,20 @@
   "formatVersion": 1,
   "packages": [
     {
+      "packageId": "aidoggy",
+      "name": "AiDoggy",
+      "description": "适用于 AiDoggy 四足机器狗的 Python 积木拓展包。",
+      "version": "0.1.0",
+      "provider": "github",
+      "repository": "heyanjun963/scratch-product-extensions",
+      "tag": "aidoggy-v0.1.0",
+      "asset": "aidoggy-0.1.0.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aidoggy-0.1.0.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aidoggy-v0.1.0/aidoggy-0.1.0.mpext",
+      "sha256": "987b83dc86aabe9262c1f9d9311537741d29be52c4cd259d1af2558627cfc754",
+      "status": "draft"
+    },
+    {
       "packageId": "aimecanum",
       "name": "AI机甲麦轮车",
       "description": "适用于 AI机甲麦轮车的 Python 积木拓展包。",
@@ -9,11 +23,25 @@
       "provider": "github",
       "repository": "heyanjun963/scratch-product-extensions",
       "tag": "aimecanum-v0.2.3",
-      "asset": "aimecanum-0.2.3.sbext",
-      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.3.sbext",
-      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.3/aimecanum-0.2.3.sbext",
-      "sha256": "5905fdb2236e57604123c586f50060a829bde7d16254b7aac5d28a5b936e07e1",
-      "status": "published"
+      "asset": "aimecanum-0.2.3.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.3.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimecanum-v0.2.3/aimecanum-0.2.3.mpext",
+      "sha256": "30c5da5f7698f0a8c5b988aa462087ac82be06cd65027231294a9940ff651b95",
+      "status": "draft"
+    },
+    {
+      "packageId": "minihexa",
+      "name": "miniHexa",
+      "description": "适用于 miniHexa 六足机器人的 Python 积木拓展包。",
+      "version": "0.1.1",
+      "provider": "github",
+      "repository": "heyanjun963/scratch-product-extensions",
+      "tag": "minihexa-v0.1.1",
+      "asset": "minihexa-0.1.1.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/minihexa-0.1.1.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/minihexa-v0.1.1/minihexa-0.1.1.mpext",
+      "sha256": "7bbf1554e7dd67b7aa00d9e92b408f0ca7e2fb5cd2911c9597f71ca87d882478",
+      "status": "draft"
     }
   ]
 }
