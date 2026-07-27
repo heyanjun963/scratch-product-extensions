@@ -13,7 +13,7 @@
       "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aidoggy-0.1.2.mpext",
       "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aidoggy-v0.1.2/aidoggy-0.1.2.mpext",
       "sha256": "9930fafa1811d496c99d32308ce4291ec51c5632c4f920aaf21879345e5c0305",
-      "status": "draft"
+      "status": "published"
     },
     {
       "packageId": "aimecanum",
