@@ -6,9 +6,11 @@
 
 | 产品 | 当前版本 | 下载 |
 | - | - | - |
+| AiDoggy | 0.1.2 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 | AI机甲麦轮车 | 0.2.3 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| miniHexa | 0.1.1 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 
-AiDoggy 0.1.0 和 miniHexa 0.1.1 已进入发布前验证，完成设备测试后会出现在 Releases 中。
+AI机甲双驱车 1.0.0 当前处于发布前人工校对阶段，暂不在远程 catalog 中开放下载。
 
 ## 下载与安装
 

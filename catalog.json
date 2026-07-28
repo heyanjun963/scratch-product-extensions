@@ -30,6 +30,20 @@
       "status": "published"
     },
     {
+      "packageId": "aimech",
+      "name": "AI机甲双驱车",
+      "description": "适用于 AI机甲双驱车的 Python 积木拓展包。",
+      "version": "1.0.0",
+      "provider": "github",
+      "repository": "heyanjun963/scratch-product-extensions",
+      "tag": "aimech-v1.0.0",
+      "asset": "aimech-1.0.0.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimech-1.0.0.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aimech-v1.0.0/aimech-1.0.0.mpext",
+      "sha256": "0d1b95ea60a647e2e664d432d72f418a7c71a72bae9ce4d3004fa498e37a76b1",
+      "status": "published"
+    },
+    {
       "packageId": "minihexa",
       "name": "miniHexa",
       "description": "适用于 miniHexa 六足机器人的 Python 积木拓展包。",
