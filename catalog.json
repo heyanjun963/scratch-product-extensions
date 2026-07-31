@@ -44,6 +44,20 @@
       "status": "published"
     },
     {
+      "packageId": "aiquadruped",
+      "name": "AI机甲四足机器人",
+      "description": "适用于 AI机甲四足机器人的 Python 积木拓展包。",
+      "version": "1.0.0",
+      "provider": "github",
+      "repository": "heyanjun963/scratch-product-extensions",
+      "tag": "aiquadruped-v1.0.0",
+      "asset": "aiquadruped-1.0.0.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aiquadruped-1.0.0.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/aiquadruped-v1.0.0/aiquadruped-1.0.0.mpext",
+      "sha256": "883abd0f9c51a74f1b7ce9c2b3bd1addb6b7cbc94c2475df3e0f32b71ea71c04",
+      "status": "draft"
+    },
+    {
       "packageId": "minihexa",
       "name": "miniHexa",
       "description": "适用于 miniHexa 六足机器人的 Python 积木拓展包。",
