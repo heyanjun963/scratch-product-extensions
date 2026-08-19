@@ -1,0 +1,41 @@
+{
+  "name": {
+    "zh-cn": "输入模块",
+    "en": "Input Modules"
+  },
+  "description": {
+    "zh-cn": "适用于 Hiwonder Python 产品的基础输入传感器积木包。",
+    "en": "Basic input sensor blocks for Hiwonder Python products."
+  },
+  "author": "Hiwonder",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "sensor",
+  "platform": ["win", "mac", "web", "linux"],
+  "version": "1.0.0",
+  "scratchEditor": {
+    "color1": "#2e8b57",
+    "color2": "#267348",
+    "color3": "#1e5c39",
+    "categories": [
+      {"id": "knob", "name": "旋钮", "blocks": ["aimech_read_knob"]},
+      {"id": "light-sensor", "name": "光线传感器", "blocks": ["aimech_read_light"]},
+      {"id": "rain-sensor", "name": "雨滴传感器", "blocks": ["aimech_get_rain_drop_value"]},
+      {"id": "soil-sensor", "name": "土壤传感器", "blocks": ["aimech_get_soil_value"]},
+      {"id": "sound-sensor", "name": "声音传感器", "blocks": ["aimech_read_sound"]},
+      {"id": "infrared-sensor", "name": "红外检测传感器", "blocks": ["aimech_get_avoid_value"]},
+      {"id": "touch-sensor", "name": "触摸传感器", "blocks": ["aimech_read_touch"]},
+      {"id": "button-module", "name": "按键模块", "blocks": ["aimech_key_is_pressed"]},
+      {"id": "ultrasonic", "name": "超声波传感器", "blocks": ["get_ultrasonic_distance"]}
+    ]
+  },
+  "asset": {
+    "python": {
+      "dir": "python/",
+      "version": "1.0.0",
+      "main": "main.ts",
+      "dependencies": {},
+      "files": ["_menus/index.json"]
+    }
+  }
+}

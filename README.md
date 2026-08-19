@@ -11,7 +11,7 @@
 | AI机甲麦轮车 | 0.2.3 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 | miniHexa | 0.1.1 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 
-AI机甲四足机器人 1.0.0 当前作为编辑器内置候选包测试，远程 catalog 保持 `draft`，尚未开放下载。
+本批次列出的 8 个产品包均已上传到 `python-blocks-v1.0.0` Release，并在远程 catalog 中标记为 `published`。
 
 ## 下载与安装
 
@@ -23,15 +23,15 @@ AI机甲四足机器人 1.0.0 当前作为编辑器内置候选包测试，远�
 
 请勿下载 GitHub 自动生成的 **Source code** 压缩包。该文件只包含仓库源码，不能作为拓展包导入。
 
-## 版本说明
+## 版本与发布批次
 
-发布标签使用 `<产品ID>-v<版本号>` 格式，例如：
+产品版本由各自的 `version` 字段维护，客户端使用它判断更新。一次 Release 可以包含多个产品包，所有包共享产品仓库配置中的 `releaseTag`。当前批次标签为：
 
 ```text
-aimecanum-v0.2.3
+python-blocks-v1.0.0
 ```
 
-升级前请阅读对应 Release 的更新说明。需要使用旧版本时，可以在 Releases 页面下载历史发布包。
+例如，`aihexa-1.0.0.mpext` 和 `aimecanum-0.2.3.mpext` 都从上述 Release 下载。升级前请阅读 Release 的更新说明；需要使用旧版本时，可以在 Releases 页面下载历史发布包。
 
 ## 校验下载文件
 
