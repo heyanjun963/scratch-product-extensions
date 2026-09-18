@@ -2,16 +2,38 @@
 
 本仓库集中发布产品积木拓展包。你可以在图形化编程软件中导入 `.sbext` 或 Mind+ Python `.mpext` 文件，为对应产品添加积木和 Python 代码生成支持。
 
+## 产品卡片图标
+
+编辑器拓展库的实际图片由所属产品包维护，统一保存在
+`products/<package-id>/python/_images/product-cards/`。`catalog.json` 对应的 `packages[]` 条目通过
+`productIcons` 声明卡片 ID 与包内相对路径：
+
+```json
+{
+  "packageId": "aiquadrupedpro",
+  "productIcons": {
+    "aiquadrupedpro": "python/_images/product-cards/aiquadrupedpro.png"
+  }
+}
+```
+
+一个 MPEXT 可以对应多张模块卡片，因此卡片 ID 不要求等于 `packageId`。共享包内的 WonderLab 与
+WonderCode 素材使用各自卡片 ID 命名，不能因产品同名而交叉复用。尚未完成代码迁移的产品可以使用
+`status: "planned"` 条目发布卡片素材；该条目不参与积木包下载。
+
+打包工具会递归收集产品目录，`product-cards/` 中的实际图片会随产品源码进入 MPEXT。图片更新只修改所属
+产品目录及映射；`python/_images/icon.svg` 或 `icon.png` 仍只负责积木分类菜单图标。
+
 ## 可用产品
 
 | 产品 | 当前版本 | 下载 |
 | - | - | - |
-| AiDoggy | 0.1.2 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
-| AI机甲双驱车 | 1.0.0 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
-| AI机甲麦轮车 | 0.2.3 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
-| miniHexa | 0.1.1 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| AiDoggy | 0.1.4 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| AI机甲双驱车 | 1.0.1 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| AI机甲麦轮车 | 0.2.4 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
+| miniHexa | 0.1.2 | [Releases](https://github.com/heyanjun963/scratch-product-extensions/releases) |
 
-本批次列出的 8 个产品包均已上传到 `python-blocks-v1.0.0` Release，并在远程 catalog 中标记为 `published`。
+本批次 8 个产品包统一使用 `python-blocks-v1.0.1` Release；上传验收完成后在远程 catalog 中标记为 `published`。
 
 ## 下载与安装
 
@@ -28,10 +50,10 @@
 产品版本由各自的 `version` 字段维护，客户端使用它判断更新。一次 Release 可以包含多个产品包，所有包共享产品仓库配置中的 `releaseTag`。当前批次标签为：
 
 ```text
-python-blocks-v1.0.0
+python-blocks-v1.0.1
 ```
 
-例如，`aihexa-1.0.0.mpext` 和 `aimecanum-0.2.3.mpext` 都从上述 Release 下载。升级前请阅读 Release 的更新说明；需要使用旧版本时，可以在 Releases 页面下载历史发布包。
+例如，`aihexa-1.0.1.mpext` 和 `aimecanum-0.2.4.mpext` 都从上述 Release 下载。升级前请阅读 Release 的更新说明；需要使用旧版本时，可以在 Releases 页面下载历史发布包。
 
 ## 校验下载文件
 
@@ -40,13 +62,13 @@ python-blocks-v1.0.0
 Windows PowerShell：
 
 ```powershell
-(Get-FileHash ".\aimecanum-0.2.3.sbext" -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash ".\aimecanum-0.2.4.mpext" -Algorithm SHA256).Hash.ToLower()
 ```
 
 macOS 或 Linux：
 
 ```sh
-sha256sum ./aimecanum-0.2.3.sbext
+sha256sum ./aimecanum-0.2.4.mpext
 ```
 
 计算结果应与 `catalog.json` 中对应版本的 `sha256` 完全一致。

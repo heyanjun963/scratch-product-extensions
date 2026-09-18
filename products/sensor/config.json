@@ -12,7 +12,7 @@
   "isBoard": false,
   "id": "sensor",
   "platform": ["win", "mac", "web", "linux"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scratchEditor": {
     "color1": "#2e8b57",
     "color2": "#267348",
@@ -32,7 +32,7 @@
   "asset": {
     "python": {
       "dir": "python/",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "main": "main.ts",
       "dependencies": {},
       "files": ["_menus/index.json"]
