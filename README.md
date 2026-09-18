@@ -53,7 +53,7 @@ WonderCode 素材使用各自卡片 ID 命名，不能因产品同名而交叉�
 python-blocks-v1.0.1
 ```
 
-例如，`aihexa-1.0.1.mpext` 和 `aimecanum-0.2.4.mpext` 都从上述 Release 下载。升级前请阅读 Release 的更新说明；需要使用旧版本时，可以在 Releases 页面下载历史发布包。
+例如，`aihexa-1.0.2.mpext` 和 `aimecanum-0.2.6.mpext` 都从上述 Release 下载。升级前请阅读 Release 的更新说明；需要使用旧版本时，可以在 Releases 页面下载历史发布包。
 
 ## 校验下载文件
 
@@ -62,13 +62,13 @@ python-blocks-v1.0.1
 Windows PowerShell：
 
 ```powershell
-(Get-FileHash ".\aimecanum-0.2.4.mpext" -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash ".\aimecanum-0.2.6.mpext" -Algorithm SHA256).Hash.ToLower()
 ```
 
 macOS 或 Linux：
 
 ```sh
-sha256sum ./aimecanum-0.2.4.mpext
+sha256sum ./aimecanum-0.2.6.mpext
 ```
 
 计算结果应与 `catalog.json` 中对应版本的 `sha256` 完全一致。

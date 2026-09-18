@@ -26,10 +26,10 @@
       "provider": "github",
       "repository": "heyanjun963/scratch-product-extensions",
       "tag": "python-blocks-v1.0.1",
-      "asset": "aihexa-1.0.1.mpext",
-      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aihexa-1.0.1.mpext",
-      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/python-blocks-v1.0.1/aihexa-1.0.1.mpext",
-      "sha256": "6e0c8b62122177b527e3525f1167817661d3cbbe2697b30116098a9d15f10cab",
+      "asset": "aihexa-1.0.2.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aihexa-1.0.2.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/python-blocks-v1.0.1/aihexa-1.0.2.mpext",
+      "sha256": "b0c4773e8cb734ac6edad4efe6ef20a522445e53c0818efa34c0235504c4e19e",
       "status": "published",
       "productIcons": {
         "aihexa": "python/_images/product-cards/aihexa.png"
@@ -43,10 +43,10 @@
       "provider": "github",
       "repository": "heyanjun963/scratch-product-extensions",
       "tag": "python-blocks-v1.0.1",
-      "asset": "aimecanum-0.2.4.mpext",
-      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.4.mpext",
-      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/python-blocks-v1.0.1/aimecanum-0.2.4.mpext",
-      "sha256": "826038d1f4c7199993bdfd666d1b9862057e3dbbbb7d50d8a5eac446790fbdf7",
+      "asset": "aimecanum-0.2.6.mpext",
+      "downloadUrl": "https://raw.githubusercontent.com/heyanjun963/scratch-product-extensions/main/dist/aimecanum-0.2.6.mpext",
+      "releaseDownloadUrl": "https://github.com/heyanjun963/scratch-product-extensions/releases/download/python-blocks-v1.0.1/aimecanum-0.2.6.mpext",
+      "sha256": "24be7760c151f89b9eeb27f7b58bc2bac8f0c2020697bdd521d533ee75b144ad",
       "status": "published",
       "productIcons": {
         "aimecanum": "python/_images/product-cards/aimecanum.png"
